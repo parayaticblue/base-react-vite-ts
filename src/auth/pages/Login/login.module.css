@@ -1,0 +1,32 @@
+
+.main {
+  @apply 
+  flex 
+  items-center 
+  justify-center 
+  min-h-screen 
+  rounded-[4px]
+  shadow  
+  bg-secondary-smen-50
+}
+
+.subMain {
+  @apply  p-8 rounded shadow-md max-w-md w-full bg-slate-100
+}
+
+.title {
+  @apply text-slate-600 text-title tracking-[0.1px] font-normal my-4 mt-0
+}
+
+
+.mainForm {
+  @apply flex flex-col mb-4 leading-6
+}
+
+.inputForm {
+  @apply flex flex-col mb-4 mt-0 leading-6 w-full block
+}
+
+.labelForm {
+  @apply text-xs text-neutral-80 leading-4  block mb-2 font-semibold
+}

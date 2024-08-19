@@ -1,0 +1,13 @@
+
+.root{
+  @apply pt-14 h-full m-auto sm:pt-20
+}
+
+.header{
+  @apply sticky top-0 z-50 h-20 bg-secondary-smen-60  text-neutral-white w-full flex items-center justify-between shadow-navbar
+}
+
+.content{
+  @apply flex-grow flex w-full m-auto justify-center
+}
+
